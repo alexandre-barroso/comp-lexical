@@ -1,8 +1,0 @@
-.venv/
-__pycache__/
-*.pyc
-.lake/
-results/
-audio/*
-!audio/.gitkeep
-.DS_Store
