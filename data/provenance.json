@@ -1,0 +1,383 @@
+{
+  "source_archive": "audio.zip",
+  "source_archive_sha256": "6acdd165e05b5d3dfc1fdd8e4cee77cc650edcc60d6c1df2795d820015823829",
+  "cohort_selection": "processed_cohort_intersection_with_original_textgrids_and_metadata",
+  "selected_recordings": 37,
+  "source_metadata_rows": 2172,
+  "selected_metadata_columns": [
+    "filename",
+    "native_language",
+    "country",
+    "sample_rate",
+    "channels",
+    "samples",
+    "sample_width",
+    "pcm_sha256"
+  ],
+  "source_textgrids": 1019,
+  "selected_textgrids": 37,
+  "features_origin": "wav_reextraction_using_supplied_compute_mfcc_raw_and_cmvn",
+  "feature_channels": [
+    "raw",
+    "utterance_cmvn"
+  ],
+  "feature_shape": [
+    "frames",
+    39,
+    2
+  ],
+  "archived_pre_pruning_mfcc_files_available": false,
+  "post_pruning_segments_checked": 8035,
+  "raw_max_absolute_difference": 4.57763671875e-05,
+  "cmvn_max_absolute_difference": 3.121793270111084e-06,
+  "recordings": [
+    {
+      "filename": "portuguese10",
+      "segments": 209,
+      "frames": 2042,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.8253922462463379e-06,
+      "array_frames": 3456
+    },
+    {
+      "filename": "portuguese11",
+      "segments": 221,
+      "frames": 1997,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 1.430511474609375e-06,
+      "array_frames": 2611
+    },
+    {
+      "filename": "portuguese13",
+      "segments": 219,
+      "frames": 1714,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 9.834766387939453e-07,
+      "array_frames": 2089
+    },
+    {
+      "filename": "portuguese14",
+      "segments": 221,
+      "frames": 1669,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 1.1920928955078125e-06,
+      "array_frames": 2331
+    },
+    {
+      "filename": "portuguese15",
+      "segments": 218,
+      "frames": 1877,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.0728836059570312e-06,
+      "array_frames": 2476
+    },
+    {
+      "filename": "portuguese16",
+      "segments": 201,
+      "frames": 1736,
+      "raw_max_absolute_difference": 7.62939453125e-06,
+      "cmvn_max_absolute_difference": 1.430511474609375e-06,
+      "array_frames": 2357
+    },
+    {
+      "filename": "portuguese17",
+      "segments": 220,
+      "frames": 1599,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.3113021850585938e-06,
+      "array_frames": 1976
+    },
+    {
+      "filename": "portuguese19",
+      "segments": 212,
+      "frames": 1841,
+      "raw_max_absolute_difference": 4.57763671875e-05,
+      "cmvn_max_absolute_difference": 1.430511474609375e-06,
+      "array_frames": 2515
+    },
+    {
+      "filename": "portuguese20",
+      "segments": 223,
+      "frames": 1669,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 9.5367431640625e-07,
+      "array_frames": 2202
+    },
+    {
+      "filename": "portuguese21",
+      "segments": 221,
+      "frames": 1635,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.430511474609375e-06,
+      "array_frames": 2147
+    },
+    {
+      "filename": "portuguese23",
+      "segments": 221,
+      "frames": 1776,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 1.0132789611816406e-06,
+      "array_frames": 2239
+    },
+    {
+      "filename": "portuguese24",
+      "segments": 221,
+      "frames": 1543,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 1.430511474609375e-06,
+      "array_frames": 2081
+    },
+    {
+      "filename": "portuguese25",
+      "segments": 203,
+      "frames": 2142,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 1.430511474609375e-06,
+      "array_frames": 3572
+    },
+    {
+      "filename": "portuguese26",
+      "segments": 213,
+      "frames": 1978,
+      "raw_max_absolute_difference": 4.57763671875e-05,
+      "cmvn_max_absolute_difference": 1.6093254089355469e-06,
+      "array_frames": 2557
+    },
+    {
+      "filename": "portuguese27",
+      "segments": 221,
+      "frames": 1993,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.6093254089355469e-06,
+      "array_frames": 2693
+    },
+    {
+      "filename": "portuguese28",
+      "segments": 205,
+      "frames": 1968,
+      "raw_max_absolute_difference": 2.288818359375e-05,
+      "cmvn_max_absolute_difference": 1.8477439880371094e-06,
+      "array_frames": 2901
+    },
+    {
+      "filename": "portuguese29",
+      "segments": 204,
+      "frames": 1786,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 3.121793270111084e-06,
+      "array_frames": 2322
+    },
+    {
+      "filename": "portuguese2",
+      "segments": 220,
+      "frames": 1793,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.3113021850585938e-06,
+      "array_frames": 2556
+    },
+    {
+      "filename": "portuguese30",
+      "segments": 210,
+      "frames": 1342,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.7285346984863281e-06,
+      "array_frames": 2072
+    },
+    {
+      "filename": "portuguese31",
+      "segments": 222,
+      "frames": 1652,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.0207295417785645e-06,
+      "array_frames": 2191
+    },
+    {
+      "filename": "portuguese32",
+      "segments": 219,
+      "frames": 1794,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.430511474609375e-06,
+      "array_frames": 2451
+    },
+    {
+      "filename": "portuguese33",
+      "segments": 221,
+      "frames": 1672,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 8.344650268554688e-07,
+      "array_frames": 2197
+    },
+    {
+      "filename": "portuguese34",
+      "segments": 219,
+      "frames": 1563,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 1.0728836059570312e-06,
+      "array_frames": 2295
+    },
+    {
+      "filename": "portuguese35",
+      "segments": 221,
+      "frames": 1726,
+      "raw_max_absolute_difference": 1.71661376953125e-05,
+      "cmvn_max_absolute_difference": 1.5497207641601562e-06,
+      "array_frames": 2167
+    },
+    {
+      "filename": "portuguese36",
+      "segments": 214,
+      "frames": 2240,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 9.5367431640625e-07,
+      "array_frames": 3129
+    },
+    {
+      "filename": "portuguese37",
+      "segments": 220,
+      "frames": 1793,
+      "raw_max_absolute_difference": 4.57763671875e-05,
+      "cmvn_max_absolute_difference": 1.6689300537109375e-06,
+      "array_frames": 2391
+    },
+    {
+      "filename": "portuguese38",
+      "segments": 219,
+      "frames": 1829,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.1920928955078125e-06,
+      "array_frames": 2424
+    },
+    {
+      "filename": "portuguese39",
+      "segments": 220,
+      "frames": 1704,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 9.5367431640625e-07,
+      "array_frames": 2037
+    },
+    {
+      "filename": "portuguese43",
+      "segments": 216,
+      "frames": 1825,
+      "raw_max_absolute_difference": 4.57763671875e-05,
+      "cmvn_max_absolute_difference": 1.817941665649414e-06,
+      "array_frames": 2759
+    },
+    {
+      "filename": "portuguese44",
+      "segments": 222,
+      "frames": 1702,
+      "raw_max_absolute_difference": 4.57763671875e-05,
+      "cmvn_max_absolute_difference": 1.4901161193847656e-06,
+      "array_frames": 2323
+    },
+    {
+      "filename": "portuguese45",
+      "segments": 220,
+      "frames": 1680,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.5497207641601562e-06,
+      "array_frames": 1924
+    },
+    {
+      "filename": "portuguese47",
+      "segments": 219,
+      "frames": 1965,
+      "raw_max_absolute_difference": 1.71661376953125e-05,
+      "cmvn_max_absolute_difference": 1.1920928955078125e-06,
+      "array_frames": 2716
+    },
+    {
+      "filename": "portuguese48",
+      "segments": 216,
+      "frames": 1791,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.2516975402832031e-06,
+      "array_frames": 2496
+    },
+    {
+      "filename": "portuguese6",
+      "segments": 220,
+      "frames": 1599,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 1.3113021850585938e-06,
+      "array_frames": 2054
+    },
+    {
+      "filename": "portuguese7",
+      "segments": 220,
+      "frames": 1929,
+      "raw_max_absolute_difference": 1.71661376953125e-05,
+      "cmvn_max_absolute_difference": 1.1324882507324219e-06,
+      "array_frames": 2589
+    },
+    {
+      "filename": "portuguese8",
+      "segments": 222,
+      "frames": 1812,
+      "raw_max_absolute_difference": 1.52587890625e-05,
+      "cmvn_max_absolute_difference": 1.0728836059570312e-06,
+      "array_frames": 2536
+    },
+    {
+      "filename": "portuguese9",
+      "segments": 222,
+      "frames": 1827,
+      "raw_max_absolute_difference": 3.0517578125e-05,
+      "cmvn_max_absolute_difference": 9.5367431640625e-07,
+      "array_frames": 2343
+    }
+  ],
+  "audio_in_release": false,
+  "versions": {
+    "numpy": "2.3.5",
+    "librosa": "0.11.0"
+  },
+  "source_metadata_unique_filenames": 2156,
+  "source_selected_metadata_rows": 37,
+  "metadata_fields_removed": [
+    "age",
+    "age_onset",
+    "birthplace",
+    "sex",
+    "speakerid",
+    "file_missing?",
+    "empty_columns"
+  ],
+  "textgrid_decimal_places": 5,
+  "nonpause_intervals_before_frame_selection": 8251,
+  "intervals_without_archived_frame_centers": 36,
+  "pre_eligibility_segments": 8215,
+  "eligible_segments": 7993,
+  "one_word_classes_excluded": [
+    "OI",
+    "aI",
+    "h"
+  ],
+  "corresponding_post_pruning_annotation_rows_verified": 8035,
+  "pre_pruning_segments_not_in_post_pruning_tables": 180,
+  "source_textgrid_copies_identical": true,
+  "fold_order": "filename + _brazil.csv",
+  "source_program_sha256": {
+    "scripts_from_other_experiments_reused/data_processing.py": "d3afa52d5d2bcb096203f6316bc6fb01092fe76e32ce77ceb803d9a166db6325",
+    "evaluate_word_holdout.py": "6ff011c690d481b6c69603b898a0aa3439191de9d2a29407e897c60c99ff1064",
+    "evaluate_support_controls.py": "fc93a3ba19c248bf37c3fa4027029f89e8a78af3e95ab9f569ea085a7d773310",
+    "analyze_comparison_support.py": "3d3599502b368117999e5d66430b275aff812d40ceb3abe454a552fbce031d2c",
+    "audit_context_timing.py": "2e29c145b435438bfae328b9e8163ac6d0b10e36b309f92d9e750f429d69c8fc",
+    "audit_forced_predictions.py": "bb32ab83df69c2d0c8fee06d0a8c5e5ad64f5953309e5fe3c4e52e19fc6e1eeb",
+    "verify.py": "e632f9efbbef1d37db8b87590a1b29d04ee04f20e6329749e9390610fa95da7b",
+    "ContrastCapacity.lean": "af7892a456c3c1a10b2da2b465a6030e93cb6dd919cb00ba35395a8a243c186f",
+    "ExpectationBound.lean": "4cba5296236110afe53b911913def9350e766f6cf01b19baecd2b3a3c7a64c01"
+  },
+  "reextracted_derivative_max_absolute_residuals": [
+    1.5767415373346694e-05,
+    2.004161028512641e-05
+  ],
+  "manuscript_derivative_residual_bound": 2e-06,
+  "reextracted_derivatives_match_manuscript_residual_bound": false,
+  "new_numeric_audit_tolerance": 0.0001,
+  "archived_array_sha256_identity_claimed": false,
+  "acoustic_regression_against_supplied_targets": "PASS_5_PRIMARY_CONDITIONS_AND_6_SENSITIVITY_RUNS",
+  "acoustic_regression_tolerance": 1e-10,
+  "reextraction_command_cache_max_absolute_difference": 0.0
+}

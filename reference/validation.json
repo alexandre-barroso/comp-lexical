@@ -1,0 +1,126 @@
+{
+  "status": "PASS_EXECUTED_PYTHON_CHECKS",
+  "execution": "component_runs_and_cli_verify",
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "sources": {
+    "python_comments": 0,
+    "python_docstrings": 0,
+    "lean_comments": 0,
+    "lean_roots": 17,
+    "lean_compilation": "NOT_RUN",
+    "python_sha256": "0915a1cea6b14606d6eac6546f53c8aad31667896f57e4deb42c76ddd803687e",
+    "lean_sha256": "c64349b44fbd40074ba3b71f41e2574e33a7ed192460cc3ab9c034b3e71af72e"
+  },
+  "data": {
+    "selected_textgrids": 37,
+    "selected_metadata_rows": 37,
+    "feature_arrays": 37,
+    "audio_files_distributed": 0,
+    "pre_eligibility_segments": 8215,
+    "eligible_segments": 7993,
+    "classes": 31,
+    "word_types": 55
+  },
+  "synthetic": {
+    "status": "PASS_FINITE_EXACT_FIXTURES",
+    "single_block_cases": 65,
+    "two_block_refinements": 1936,
+    "low_density_high_presence_example": {
+      "associated_records": 1000,
+      "other_records": 1,
+      "retained_slots": 1,
+      "maximum_retained_fraction": 0.001,
+      "expected_retained_fraction": 0.000999000999000999,
+      "probability_any_associated_record": 0.999000999000999
+    }
+  },
+  "representation_tests": {
+    "status": "PASS",
+    "tokens": 148,
+    "classes": 2,
+    "cells": 74,
+    "channel": "cmvn",
+    "word_normalization": "PASS",
+    "frame_mapping": "PASS",
+    "accuracy": 1.0
+  },
+  "structural_regression": "PASS",
+  "primary_regression": "PASS",
+  "sensitivity_regressions": {
+    "centered60": "PASS",
+    "centered40": "PASS",
+    "centered100": "PASS",
+    "centered_static": "PASS",
+    "centered60_25": "PASS",
+    "archived60": "PASS"
+  },
+  "primary_outcomes": {
+    "speaker": {
+      "macro": 0.4770811286940343,
+      "micro": 0.44388840235205806
+    },
+    "word": {
+      "macro": 0.3192368466562022,
+      "micro": 0.3155260853246591
+    },
+    "class": {
+      "macro": 0.46954911101685304,
+      "micro": 0.43883773301638934,
+      "monte_carlo_se": 0.00020497618095816666
+    },
+    "class_speaker": {
+      "macro": 0.47089636061410267,
+      "micro": 0.43972726135368445,
+      "monte_carlo_se": 0.00019935781381705495
+    },
+    "class_context": {
+      "macro": 0.32012345026861216,
+      "micro": 0.3164606530714375,
+      "monte_carlo_se": 4.544735074123255e-05
+    }
+  },
+  "forced_predictions": {
+    "cells": 1143,
+    "tokens": 4193,
+    "macro_weight": 0.5415428802525578,
+    "max_centroid_difference": 1.3322676295501878e-15,
+    "different_predictions": 0,
+    "all_cell_macro_gap": 0.0008866036124099419,
+    "derived_nonforced_macro_gap": 0.0019338855788701892
+  },
+  "reextraction_command": "PASS",
+  "reextraction_command_max_absolute_difference_from_release_cache": 0.0,
+  "source_retained_segments_compared": 8035,
+  "source_retained_raw_max_absolute_difference": 4.57763671875e-05,
+  "source_retained_cmvn_max_absolute_difference": 3.121793270111084e-06,
+  "derivative_audit": {
+    "maximum_absolute_residual": 2.004161028512641e-05,
+    "manuscript_bound": 2e-06,
+    "matches_manuscript_bound": false,
+    "new_cache_tolerance": 0.0001
+  },
+  "formal": {
+    "theorems": 17,
+    "source_terms_preserved": true,
+    "comments": 0,
+    "compilation": "NOT_RUN_TOOLCHAIN_UNAVAILABLE",
+    "trust_zero": "NOT_RUN_TOOLCHAIN_UNAVAILABLE"
+  },
+  "figure": "GENERATED_AND_VISUALLY_CHECKED",
+  "individual_prediction_exports": false,
+  "cli_all_orchestration": "PASS_WITH_PREVIOUSLY_VALIDATED_ACOUSTIC_RETURNS",
+  "negative_tests": {
+    "missing_audio": "PASS_EXPLICIT_ERROR",
+    "missing_lean": "PASS_EXPLICIT_ERROR"
+  },
+  "anonymization": {
+    "author_paths_or_email_matches": 0,
+    "comments_in_scripts": 0,
+    "audio_files": 0,
+    "zip_timestamps": "1980-01-01T00:00:00"
+  }
+}

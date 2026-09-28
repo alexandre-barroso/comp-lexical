@@ -1,0 +1,532 @@
+{
+  "support": {
+    "minimum_training_tokens_per_class": 36,
+    "context_available_before_word_removal": 7973,
+    "context_absent_before_word_removal": 20,
+    "context_newly_lost_after_word_removal": 7450,
+    "context_strata": [
+      {
+        "context_available": false,
+        "tokens": 7470,
+        "classes": 31,
+        "words": 55,
+        "speakers": 37,
+        "speaker_class_cells": 1147,
+        "speaker_word_cells": 2028
+      },
+      {
+        "context_available": true,
+        "tokens": 523,
+        "classes": 11,
+        "words": 24,
+        "speakers": 37,
+        "speaker_class_cells": 293,
+        "speaker_word_cells": 488
+      }
+    ],
+    "class_support": [
+      {
+        "class": "3`",
+        "tokens": 185,
+        "word_types": 2,
+        "neighbor_context_types": 7,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          1,
+          1
+        ]
+      },
+      {
+        "class": "@",
+        "tokens": 292,
+        "word_types": 4,
+        "neighbor_context_types": 12,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          3,
+          3
+        ]
+      },
+      {
+        "class": "@U",
+        "tokens": 111,
+        "word_types": 3,
+        "neighbor_context_types": 5,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          2,
+          2
+        ]
+      },
+      {
+        "class": "A:",
+        "tokens": 74,
+        "word_types": 2,
+        "neighbor_context_types": 2,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          1,
+          1
+        ]
+      },
+      {
+        "class": "D",
+        "tokens": 257,
+        "word_types": 4,
+        "neighbor_context_types": 10,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          3,
+          3
+        ]
+      },
+      {
+        "class": "E",
+        "tokens": 147,
+        "word_types": 4,
+        "neighbor_context_types": 4,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          3,
+          3
+        ]
+      },
+      {
+        "class": "I",
+        "tokens": 407,
+        "word_types": 10,
+        "neighbor_context_types": 11,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          9,
+          9
+        ]
+      },
+      {
+        "class": "N",
+        "tokens": 111,
+        "word_types": 2,
+        "neighbor_context_types": 3,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          1,
+          1
+        ]
+      },
+      {
+        "class": "O:",
+        "tokens": 222,
+        "word_types": 5,
+        "neighbor_context_types": 6,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          4,
+          4
+        ]
+      },
+      {
+        "class": "S",
+        "tokens": 146,
+        "word_types": 4,
+        "neighbor_context_types": 6,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          3,
+          3
+        ]
+      },
+      {
+        "class": "T",
+        "tokens": 148,
+        "word_types": 3,
+        "neighbor_context_types": 5,
+        "neighbor_contexts_spanning_multiple_words": 1,
+        "crossword_context_available_tokens": 28,
+        "word_types_with_any_crossword_context": 2,
+        "remaining_words_after_test_word_removed_min_max": [
+          2,
+          2
+        ]
+      },
+      {
+        "class": "V",
+        "tokens": 148,
+        "word_types": 3,
+        "neighbor_context_types": 4,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          2,
+          2
+        ]
+      },
+      {
+        "class": "b",
+        "tokens": 333,
+        "word_types": 8,
+        "neighbor_context_types": 15,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          7,
+          7
+        ]
+      },
+      {
+        "class": "d",
+        "tokens": 257,
+        "word_types": 5,
+        "neighbor_context_types": 10,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          4,
+          4
+        ]
+      },
+      {
+        "class": "eI",
+        "tokens": 179,
+        "word_types": 5,
+        "neighbor_context_types": 6,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          4,
+          4
+        ]
+      },
+      {
+        "class": "f",
+        "tokens": 222,
+        "word_types": 5,
+        "neighbor_context_types": 9,
+        "neighbor_contexts_spanning_multiple_words": 1,
+        "crossword_context_available_tokens": 40,
+        "word_types_with_any_crossword_context": 3,
+        "remaining_words_after_test_word_removed_min_max": [
+          4,
+          4
+        ]
+      },
+      {
+        "class": "g",
+        "tokens": 148,
+        "word_types": 4,
+        "neighbor_context_types": 7,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          3,
+          3
+        ]
+      },
+      {
+        "class": "i:",
+        "tokens": 444,
+        "word_types": 10,
+        "neighbor_context_types": 15,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          9,
+          9
+        ]
+      },
+      {
+        "class": "k",
+        "tokens": 370,
+        "word_types": 10,
+        "neighbor_context_types": 14,
+        "neighbor_contexts_spanning_multiple_words": 2,
+        "crossword_context_available_tokens": 111,
+        "word_types_with_any_crossword_context": 3,
+        "remaining_words_after_test_word_removed_min_max": [
+          9,
+          9
+        ]
+      },
+      {
+        "class": "l",
+        "tokens": 333,
+        "word_types": 9,
+        "neighbor_context_types": 10,
+        "neighbor_contexts_spanning_multiple_words": 2,
+        "crossword_context_available_tokens": 84,
+        "word_types_with_any_crossword_context": 3,
+        "remaining_words_after_test_word_removed_min_max": [
+          8,
+          8
+        ]
+      },
+      {
+        "class": "m",
+        "tokens": 148,
+        "word_types": 4,
+        "neighbor_context_types": 7,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          3,
+          3
+        ]
+      },
+      {
+        "class": "n",
+        "tokens": 476,
+        "word_types": 11,
+        "neighbor_context_types": 13,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          10,
+          10
+        ]
+      },
+      {
+        "class": "p",
+        "tokens": 185,
+        "word_types": 5,
+        "neighbor_context_types": 7,
+        "neighbor_contexts_spanning_multiple_words": 1,
+        "crossword_context_available_tokens": 48,
+        "word_types_with_any_crossword_context": 2,
+        "remaining_words_after_test_word_removed_min_max": [
+          4,
+          4
+        ]
+      },
+      {
+        "class": "r",
+        "tokens": 405,
+        "word_types": 10,
+        "neighbor_context_types": 13,
+        "neighbor_contexts_spanning_multiple_words": 1,
+        "crossword_context_available_tokens": 39,
+        "word_types_with_any_crossword_context": 2,
+        "remaining_words_after_test_word_removed_min_max": [
+          9,
+          9
+        ]
+      },
+      {
+        "class": "s",
+        "tokens": 553,
+        "word_types": 14,
+        "neighbor_context_types": 22,
+        "neighbor_contexts_spanning_multiple_words": 1,
+        "crossword_context_available_tokens": 5,
+        "word_types_with_any_crossword_context": 2,
+        "remaining_words_after_test_word_removed_min_max": [
+          13,
+          13
+        ]
+      },
+      {
+        "class": "t",
+        "tokens": 401,
+        "word_types": 11,
+        "neighbor_context_types": 16,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          10,
+          10
+        ]
+      },
+      {
+        "class": "u",
+        "tokens": 185,
+        "word_types": 5,
+        "neighbor_context_types": 7,
+        "neighbor_contexts_spanning_multiple_words": 1,
+        "crossword_context_available_tokens": 19,
+        "word_types_with_any_crossword_context": 2,
+        "remaining_words_after_test_word_removed_min_max": [
+          4,
+          4
+        ]
+      },
+      {
+        "class": "v",
+        "tokens": 111,
+        "word_types": 2,
+        "neighbor_context_types": 5,
+        "neighbor_contexts_spanning_multiple_words": 0,
+        "crossword_context_available_tokens": 0,
+        "word_types_with_any_crossword_context": 0,
+        "remaining_words_after_test_word_removed_min_max": [
+          1,
+          1
+        ]
+      },
+      {
+        "class": "w",
+        "tokens": 184,
+        "word_types": 4,
+        "neighbor_context_types": 8,
+        "neighbor_contexts_spanning_multiple_words": 1,
+        "crossword_context_available_tokens": 12,
+        "word_types_with_any_crossword_context": 2,
+        "remaining_words_after_test_word_removed_min_max": [
+          3,
+          3
+        ]
+      },
+      {
+        "class": "z",
+        "tokens": 443,
+        "word_types": 10,
+        "neighbor_context_types": 17,
+        "neighbor_contexts_spanning_multiple_words": 1,
+        "crossword_context_available_tokens": 86,
+        "word_types_with_any_crossword_context": 4,
+        "remaining_words_after_test_word_removed_min_max": [
+          9,
+          9
+        ]
+      },
+      {
+        "class": "{",
+        "tokens": 368,
+        "word_types": 8,
+        "neighbor_context_types": 10,
+        "neighbor_contexts_spanning_multiple_words": 1,
+        "crossword_context_available_tokens": 51,
+        "word_types_with_any_crossword_context": 2,
+        "remaining_words_after_test_word_removed_min_max": [
+          7,
+          7
+        ]
+      }
+    ],
+    "label_neighbor_context_types": 286,
+    "label_neighbor_context_types_spanning_multiple_words": 13,
+    "classes_without_crossword_context_support": 20,
+    "tokens_with_only_one_other_training_word": 481
+  },
+  "degeneracy": {
+    "cells": 2028,
+    "block_occurrence_totals": {
+      "fully_kept_block_occurrences": 567759,
+      "fully_deleted_block_occurrences": 10043,
+      "randomizable_block_occurrences": 1106,
+      "held_word_training_token_occurrences": 286694,
+      "held_word_training_token_occurrences_able_to_remain": 18850,
+      "expected_held_word_training_token_occurrences_retained": 9326.419733821998,
+      "all_retained_training_token_occurrences": 15484886
+    },
+    "cell_distributions": {
+      "partial_blocks": {
+        "min": 0.0,
+        "median": 0.0,
+        "max": 3.0,
+        "mean": 0.5453648915187377
+      },
+      "held_word_tokens_able_to_remain": {
+        "min": 0.0,
+        "median": 0.0,
+        "max": 47.0,
+        "mean": 9.294871794871796
+      },
+      "all_training_tokens_in_randomizable_blocks": {
+        "min": 0.0,
+        "median": 0.0,
+        "max": 155.0,
+        "mean": 24.128205128205128
+      },
+      "expected_held_word_tokens_retained": {
+        "min": 0.0,
+        "median": 0.0,
+        "max": 32.42553191489362,
+        "mean": 4.59882629872881
+      },
+      "expected_fraction_of_retained_training_set_shared_with_lexical": {
+        "min": 0.9956903865078557,
+        "median": 1.0,
+        "max": 1.0,
+        "mean": 0.9993961076190371
+      },
+      "log10_possible_retained_subsets": {
+        "min": 0.0,
+        "median": 0.0,
+        "max": 38.460699747877776,
+        "mean": 5.447294950618687
+      }
+    },
+    "exact_lexical_deletion_cells": 1143,
+    "exact_lexical_deletion_cell_fraction": 0.5636094674556213,
+    "test_tokens_in_exact_deletion_cells": 4193,
+    "macro_weight_in_exact_deletion_cells": 0.5415428802525577,
+    "nonexact_cell_distributions": {
+      "partial_blocks": {
+        "min": 1.0,
+        "median": 1.0,
+        "max": 3.0,
+        "mean": 1.2497175141242938
+      },
+      "held_word_tokens_able_to_remain": {
+        "min": 1.0,
+        "median": 17.0,
+        "max": 47.0,
+        "mean": 21.29943502824859
+      },
+      "all_training_tokens_in_randomizable_blocks": {
+        "min": 4.0,
+        "median": 40.0,
+        "max": 155.0,
+        "mean": 55.29039548022599
+      },
+      "expected_held_word_tokens_retained": {
+        "min": 0.75,
+        "median": 9.18918918918919,
+        "max": 32.42553191489362,
+        "mean": 10.538327382849749
+      },
+      "expected_fraction_of_retained_training_set_shared_with_lexical": {
+        "min": 0.9956903865078557,
+        "median": 0.9987959657770978,
+        "max": 0.9999021909233177,
+        "mean": 0.9986161652558274
+      },
+      "log10_possible_retained_subsets": {
+        "min": 0.6020599913279618,
+        "median": 10.201543741149285,
+        "max": 38.460699747877776,
+        "mean": 12.482614869892315
+      }
+    },
+    "held_word_training_token_occurrence_fraction_able_to_remain": 0.06574954481084362,
+    "expected_held_word_training_token_occurrence_fraction_retained": 0.03253092054183903,
+    "expected_retained_training_token_overlap_with_lexical": 0.9993977082082605
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "population": {
+    "pre_eligibility_tokens": 8215,
+    "all_labels": 34,
+    "excluded_tokens": 222,
+    "one_word_labels": [
+      "OI",
+      "aI",
+      "h"
+    ],
+    "eligible_tokens": 7993,
+    "classes": 31,
+    "speakers": 37,
+    "words": 55
+  },
+  "comparison": {
+    "population": {
+      "tokens": 7993,
+      "speakers": 37,
+      "classes": 31,
+      "words": 55
+    },
+    "refinement_comparisons": 18252,
+    "context_word_support": {
+      "contexts": 286,
+      "contexts_in_multiple_words": 13
+    },
+    "partitions": {
+      "class_both": {
+        "cells": 2028,
+        "forced_cells": 1143,
+        "forced_test_tokens": 4193,
+        "forced_macro_weight": 0.5415428802525577,
+        "uniform_macro_weighted_any_associated_segment_probability": 0.4500359336967998,
+        "expected_held_retention_fraction": 0.03253092054183906,
+        "sharp_maximum_held_retention_fraction": 0.049976630135266174,
+        "nonforced_macro_weighted_any_probability": 0.9816314641970662
+      }
+    }
+  },
+  "structure": {
+    "support": {
+      "minimum_training_tokens_per_class": 36,
+      "context_available_before_word_removal": 7973,
+      "context_absent_before_word_removal": 20,
+      "context_newly_lost_after_word_removal": 7450,
+      "label_neighbor_context_types": 286,
+      "label_neighbor_context_types_spanning_multiple_words": 13,
+      "classes_without_crossword_context_support": 20,
+      "tokens_with_only_one_other_training_word": 481,
+      "context_strata": [
+        {
+          "context_available": false,
+          "tokens": 7470,
+          "classes": 31,
+          "words": 55,
+          "speakers": 37,
+          "speaker_class_cells": 1147
+        },
+        {
+          "context_available": true,
+          "tokens": 523,
+          "classes": 11,
+          "words": 24,
+          "speakers": 37,
+          "speaker_class_cells": 293
+        }
+      ]
+    },
+    "degeneracy": {
+      "cells": 2028,
+      "exact_lexical_deletion_cells": 1143,
+      "test_tokens_in_exact_deletion_cells": 4193,
+      "expected_retained_training_token_overlap_with_lexical": 0.9993977082082605,
+      "block_occurrence_totals": {
+        "fully_kept_block_occurrences": 567759,
+        "fully_deleted_block_occurrences": 10043,
+        "randomizable_block_occurrences": 1106,
+        "held_word_training_token_occurrences": 286694,
+        "held_word_training_token_occurrences_able_to_remain": 18850,
+        "all_retained_training_token_occurrences": 15484886
+      }
+    }
+  },
+  "timing": {
+    "phone_rows": 8215,
+    "archived_intervals_match_offset_formula": 8215,
+    "different_central_frame_sets": 8215,
+    "central_selected_frames": 40810,
+    "central_frames_centers_outside_phone": 4401,
+    "tokens_any_selected_frame_center_outside_phone": 4350,
+    "tokens_any_dynamic_context_outside_phone": 8144,
+    "tokens_all_dynamic_contexts_reach_outside_phone": 4909,
+    "tokens_all_dynamic_and_window_supports_reach_outside_phone": 6978
+  },
+  "table2": {
+    "class": [
+      0,
+      0.0,
+      80.25,
+      97.68
+    ],
+    "class_speaker": [
+      0,
+      0.0,
+      80.19,
+      97.68
+    ],
+    "class_left": [
+      188,
+      10.58,
+      21.73,
+      34.84
+    ],
+    "class_right": [
+      148,
+      4.69,
+      21.79,
+      35.06
+    ],
+    "class_both": [
+      1143,
+      54.15,
+      3.25,
+      5.0
+    ],
+    "class_left_speaker": [
+      189,
+      10.62,
+      20.39,
+      33.68
+    ],
+    "class_right_speaker": [
+      186,
+      6.85,
+      20.71,
+      34.18
+    ],
+    "class_both_speaker": [
+      1217,
+      57.18,
+      2.57,
+      4.52
+    ]
+  },
+  "primary": {
+    "seed": 20260929,
+    "controls": 100,
+    "frame_mapping": "centered",
+    "population": {
+      "tokens": 7993,
+      "speakers": 37,
+      "classes": 31,
+      "words": 55
+    },
+    "outcomes": {
+      "speaker": {
+        "macro": 0.4770811286940299,
+        "micro": 0.44388840235205806
+      },
+      "word": {
+        "macro": 0.31923684665620156,
+        "micro": 0.3155260853246591
+      },
+      "class": {
+        "macro": 0.46954911101685637,
+        "micro": 0.43883773301638934,
+        "monte_carlo_se": 0.00020497618095816815
+      },
+      "class_speaker": {
+        "macro": 0.47089636061410595,
+        "micro": 0.43972726135368445,
+        "monte_carlo_se": 0.00019935781381706123
+      },
+      "class_context": {
+        "macro": 0.3201234502686139,
+        "micro": 0.3164606530714375,
+        "monte_carlo_se": 4.544735074123993e-05
+      }
+    },
+    "forced_prediction_audit": {
+      "cells": 1143,
+      "tokens": 4193,
+      "different_predictions": 0,
+      "derived_nonforced_macro_gap": 0.001933885578875395
+    },
+    "randomization_freedom": {
+      "class_context": {
+        "blocks_evaluated": 578908,
+        "forced_full_blocks": 567759,
+        "forced_empty_blocks": 10043,
+        "randomizable_blocks": 1106,
+        "speaker_word_cells": 2028,
+        "fully_forced_cells": 1143
+      }
+    }
+  },
+  "sensitivities": {
+    "centered60": {
+      "seed": 20260928,
+      "controls": 100,
+      "fraction": 0.6,
+      "block": "all",
+      "mapping": "centered",
+      "cells": 2028,
+      "minimum_training_tokens": 36,
+      "macro": {
+        "speaker": 0.4770811286940316,
+        "word": 0.319236846656201,
+        "class": 0.4695424885828112
+      }
+    },
+    "centered40": {
+      "seed": 20260928,
+      "controls": 25,
+      "fraction": 0.4,
+      "block": "all",
+      "mapping": "centered",
+      "cells": 2028,
+      "minimum_training_tokens": 36,
+      "macro": {
+        "speaker": 0.4586387481548767,
+        "word": 0.3097003984100754,
+        "class": 0.4504325358841481
+      }
+    },
+    "centered100": {
+      "seed": 20260928,
+      "controls": 25,
+      "fraction": 1.0,
+      "block": "all",
+      "mapping": "centered",
+      "cells": 2028,
+      "minimum_training_tokens": 36,
+      "macro": {
+        "speaker": 0.48300764913668137,
+        "word": 0.3078389618712195,
+        "class": 0.47553011369140363
+      }
+    },
+    "centered_static": {
+      "seed": 20260928,
+      "controls": 25,
+      "fraction": 0.6,
+      "block": "static",
+      "mapping": "centered",
+      "cells": 2028,
+      "minimum_training_tokens": 36,
+      "macro": {
+        "speaker": 0.340535733277669,
+        "word": 0.27575294268842665,
+        "class": 0.33338649145100746
+      }
+    },
+    "centered60_25": {
+      "seed": 20260928,
+      "controls": 25,
+      "fraction": 0.6,
+      "block": "all",
+      "mapping": "centered",
+      "cells": 2028,
+      "minimum_training_tokens": 36,
+      "macro": {
+        "speaker": 0.4770811286940316,
+        "word": 0.319236846656201,
+        "class": 0.46874081445049204
+      }
+    },
+    "archived60": {
+      "seed": 20260928,
+      "controls": 100,
+      "fraction": 0.6,
+      "block": "all",
+      "mapping": "archived",
+      "cells": 2028,
+      "minimum_training_tokens": 36,
+      "macro": {
+        "speaker": 0.43447125382609286,
+        "word": 0.28281179006985435,
+        "class": 0.42747917956788895
+      }
+    }
+  }
+}

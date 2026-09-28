@@ -1,0 +1,116 @@
+{
+  "centered60": {
+    "seed": 20260928,
+    "controls": 100,
+    "macro": {
+      "speaker": 0.4770811286940316,
+      "word": 0.319236846656201,
+      "class": 0.4695424885828112
+    },
+    "micro": {
+      "speaker": 0.44388840235205806,
+      "word": 0.3155260853246591,
+      "class": 0.4388640060052547
+    },
+    "cells": 2028,
+    "minimum_training_tokens": 36,
+    "fraction": 0.6,
+    "block": "all",
+    "mapping": "centered"
+  },
+  "centered40": {
+    "seed": 20260928,
+    "controls": 25,
+    "macro": {
+      "speaker": 0.4586387481548767,
+      "word": 0.3097003984100754,
+      "class": 0.4504325358841481
+    },
+    "micro": {
+      "speaker": 0.4281246090329038,
+      "word": 0.30726886025272115,
+      "class": 0.42346553234079826
+    },
+    "cells": 2028,
+    "minimum_training_tokens": 36,
+    "fraction": 0.4,
+    "block": "all",
+    "mapping": "centered"
+  },
+  "centered100": {
+    "seed": 20260928,
+    "controls": 25,
+    "macro": {
+      "speaker": 0.48300764913668137,
+      "word": 0.3078389618712195,
+      "class": 0.47553011369140363
+    },
+    "micro": {
+      "speaker": 0.44614037282622293,
+      "word": 0.3057675466032779,
+      "class": 0.44120105091955464
+    },
+    "cells": 2028,
+    "minimum_training_tokens": 36,
+    "fraction": 1.0,
+    "block": "all",
+    "mapping": "centered"
+  },
+  "centered_static": {
+    "seed": 20260928,
+    "controls": 25,
+    "macro": {
+      "speaker": 0.340535733277669,
+      "word": 0.27575294268842665,
+      "class": 0.33338649145100746
+    },
+    "micro": {
+      "speaker": 0.3329163017640435,
+      "word": 0.2796196672088077,
+      "class": 0.32880770674340015
+    },
+    "cells": 2028,
+    "minimum_training_tokens": 36,
+    "fraction": 0.6,
+    "block": "static",
+    "mapping": "centered"
+  },
+  "centered60_25": {
+    "seed": 20260928,
+    "controls": 25,
+    "macro": {
+      "speaker": 0.4770811286940316,
+      "word": 0.319236846656201,
+      "class": 0.46874081445049204
+    },
+    "micro": {
+      "speaker": 0.44388840235205806,
+      "word": 0.3155260853246591,
+      "class": 0.4383485549856125
+    },
+    "cells": 2028,
+    "minimum_training_tokens": 36,
+    "fraction": 0.6,
+    "block": "all",
+    "mapping": "centered"
+  },
+  "archived60": {
+    "seed": 20260928,
+    "controls": 100,
+    "macro": {
+      "speaker": 0.43447125382609286,
+      "word": 0.28281179006985435,
+      "class": 0.42747917956788895
+    },
+    "micro": {
+      "speaker": 0.3953459276867259,
+      "word": 0.2727386463155261,
+      "class": 0.39188915300888233
+    },
+    "cells": 2028,
+    "minimum_training_tokens": 36,
+    "fraction": 0.6,
+    "block": "all",
+    "mapping": "archived"
+  }
+}

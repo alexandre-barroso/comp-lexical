@@ -1,0 +1,27 @@
+{
+  "counts_before_eligibility": {
+    "phone_rows": 8215,
+    "archived_intervals_match_offset_formula": 8215,
+    "different_central_frame_sets": 8215,
+    "central_selected_frames": 40810,
+    "central_frames_centers_outside_phone": 4401,
+    "tokens_any_selected_frame_center_outside_phone": 4350,
+    "tokens_any_dynamic_context_outside_phone": 8144,
+    "tokens_all_dynamic_contexts_reach_outside_phone": 4909,
+    "tokens_all_dynamic_and_window_supports_reach_outside_phone": 6978
+  },
+  "recorded_sample_rates": [
+    44100
+  ],
+  "feature_arrays_checked": 37,
+  "audio_headers_checked_in_this_run": 0,
+  "delta_formula_max_absolute_residual": [
+    1.5767415373346694e-05,
+    2.004161028512641e-05
+  ],
+  "n_fft": 2048,
+  "hop": 441,
+  "delta_width": 9,
+  "textgrid_decimal_places": 5,
+  "excluded_without_archived_frames": 36
+}

@@ -1,0 +1,239 @@
+{
+  "population": {
+    "tokens": 7993,
+    "speakers": 37,
+    "classes": 31,
+    "words": 55
+  },
+  "partitions": {
+    "class": {
+      "cells": 2028,
+      "forced_cells": 0,
+      "forced_test_tokens": 0,
+      "forced_macro_weight": 0.0,
+      "possible_macro_weight": 1.0,
+      "uniform_macro_weighted_any_associated_segment_probability": 1.0,
+      "uniform_macro_weighted_variable_zero_probability": 2.6522105164718215e-40,
+      "nonforced_any_probability_distribution": {
+        "min": 1.0,
+        "median": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      },
+      "nonforced_macro_weighted_any_probability": 1.0,
+      "training_incidence_totals": {
+        "held": 286694,
+        "maximum": 280034,
+        "expected": 230066.6048604348,
+        "nonforced_held": 286694
+      },
+      "expected_held_retention_fraction": 0.8024814082625894,
+      "sharp_maximum_held_retention_fraction": 0.9767696568466727,
+      "nonforced_expected_held_retention_fraction": 0.8024814082625894,
+      "nonforced_maximum_held_retention_fraction": 0.9767696568466727,
+      "test_macro_weighted_expected_fraction": 0.7805141177767392,
+      "test_macro_weighted_maximum_fraction": 0.9651254260125228
+    },
+    "class_speaker": {
+      "cells": 2028,
+      "forced_cells": 0,
+      "forced_test_tokens": 0,
+      "forced_macro_weight": 0.0,
+      "possible_macro_weight": 1.0,
+      "uniform_macro_weighted_any_associated_segment_probability": 1.0,
+      "uniform_macro_weighted_variable_zero_probability": 1.773405851251819e-27,
+      "nonforced_any_probability_distribution": {
+        "min": 1.0,
+        "median": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      },
+      "nonforced_macro_weighted_any_probability": 1.0,
+      "training_incidence_totals": {
+        "held": 286694,
+        "maximum": 280034,
+        "expected": 229907.09948384948,
+        "nonforced_held": 286694
+      },
+      "expected_held_retention_fraction": 0.8019250472066017,
+      "sharp_maximum_held_retention_fraction": 0.9767696568466727,
+      "nonforced_expected_held_retention_fraction": 0.8019250472066017,
+      "nonforced_maximum_held_retention_fraction": 0.9767696568466727,
+      "test_macro_weighted_expected_fraction": 0.7799811344016041,
+      "test_macro_weighted_maximum_fraction": 0.9651254260125228
+    },
+    "class_left": {
+      "cells": 2028,
+      "forced_cells": 188,
+      "forced_test_tokens": 602,
+      "forced_macro_weight": 0.10575029687932913,
+      "possible_macro_weight": 0.8942497031206709,
+      "uniform_macro_weighted_any_associated_segment_probability": 0.8846878495731286,
+      "uniform_macro_weighted_variable_zero_probability": 0.009561853547542206,
+      "nonforced_any_probability_distribution": {
+        "min": 0.6666666666666666,
+        "median": 1.0,
+        "max": 1.0,
+        "mean": 0.9888641411422125
+      },
+      "nonforced_macro_weighted_any_probability": 0.9893074009259671,
+      "training_incidence_totals": {
+        "held": 286694,
+        "maximum": 99871,
+        "expected": 62309.43810336535,
+        "nonforced_held": 265022
+      },
+      "expected_held_retention_fraction": 0.21733778210693402,
+      "sharp_maximum_held_retention_fraction": 0.3483539941540458,
+      "nonforced_expected_held_retention_fraction": 0.23511043650476318,
+      "nonforced_maximum_held_retention_fraction": 0.3768404132487114,
+      "test_macro_weighted_expected_fraction": 0.20512281876745084,
+      "test_macro_weighted_maximum_fraction": 0.3304072085083731
+    },
+    "class_right": {
+      "cells": 2028,
+      "forced_cells": 148,
+      "forced_test_tokens": 335,
+      "forced_macro_weight": 0.04693006789780983,
+      "possible_macro_weight": 0.9530699321021902,
+      "uniform_macro_weighted_any_associated_segment_probability": 0.9498107088332737,
+      "uniform_macro_weighted_variable_zero_probability": 0.003259223268916436,
+      "nonforced_any_probability_distribution": {
+        "min": 0.875,
+        "median": 1.0,
+        "max": 1.0,
+        "mean": 0.9967796741009921
+      },
+      "nonforced_macro_weighted_any_probability": 0.9965802894843954,
+      "training_incidence_totals": {
+        "held": 286694,
+        "maximum": 100512,
+        "expected": 62466.16687732912,
+        "nonforced_held": 274774
+      },
+      "expected_held_retention_fraction": 0.21788445826326716,
+      "sharp_maximum_held_retention_fraction": 0.3505898274815657,
+      "nonforced_expected_held_retention_fraction": 0.22733652702704446,
+      "nonforced_maximum_held_retention_fraction": 0.36579880192449066,
+      "test_macro_weighted_expected_fraction": 0.20378398314093432,
+      "test_macro_weighted_maximum_fraction": 0.32832103532196993
+    },
+    "class_both": {
+      "cells": 2028,
+      "forced_cells": 1143,
+      "forced_test_tokens": 4193,
+      "forced_macro_weight": 0.5415428802525577,
+      "possible_macro_weight": 0.45845711974744235,
+      "uniform_macro_weighted_any_associated_segment_probability": 0.4500359336967998,
+      "uniform_macro_weighted_variable_zero_probability": 0.008421186050642524,
+      "nonforced_any_probability_distribution": {
+        "min": 0.75,
+        "median": 0.9999999999371282,
+        "max": 1.0,
+        "mean": 0.9773560001623206
+      },
+      "nonforced_macro_weighted_any_probability": 0.9816314641262815,
+      "training_incidence_totals": {
+        "held": 286694,
+        "maximum": 14328,
+        "expected": 9326.419733822006,
+        "nonforced_held": 136800
+      },
+      "expected_held_retention_fraction": 0.03253092054183906,
+      "sharp_maximum_held_retention_fraction": 0.049976630135266174,
+      "nonforced_expected_held_retention_fraction": 0.06817558284957606,
+      "nonforced_maximum_held_retention_fraction": 0.10473684210526316,
+      "test_macro_weighted_expected_fraction": 0.029909204062126462,
+      "test_macro_weighted_maximum_fraction": 0.04657292342904222
+    },
+    "class_left_speaker": {
+      "cells": 2028,
+      "forced_cells": 189,
+      "forced_test_tokens": 606,
+      "forced_macro_weight": 0.10622496509593284,
+      "possible_macro_weight": 0.8937750349040672,
+      "uniform_macro_weighted_any_associated_segment_probability": 0.853683570651918,
+      "uniform_macro_weighted_variable_zero_probability": 0.04009146425214911,
+      "nonforced_any_probability_distribution": {
+        "min": 0.5,
+        "median": 1.0,
+        "max": 1.0,
+        "mean": 0.9515319053993897
+      },
+      "nonforced_macro_weighted_any_probability": 0.9551436740941726,
+      "training_incidence_totals": {
+        "held": 286694,
+        "maximum": 96545,
+        "expected": 58467.86666666667,
+        "nonforced_held": 264878
+      },
+      "expected_held_retention_fraction": 0.2039382291455931,
+      "sharp_maximum_held_retention_fraction": 0.3367527747354322,
+      "nonforced_expected_held_retention_fraction": 0.22073508055280797,
+      "nonforced_maximum_held_retention_fraction": 0.36448855699605104,
+      "test_macro_weighted_expected_fraction": 0.19229484121511967,
+      "test_macro_weighted_maximum_fraction": 0.31920858759743526
+    },
+    "class_right_speaker": {
+      "cells": 2028,
+      "forced_cells": 186,
+      "forced_test_tokens": 486,
+      "forced_macro_weight": 0.06854376370505402,
+      "possible_macro_weight": 0.931456236294946,
+      "uniform_macro_weighted_any_associated_segment_probability": 0.9067725023771852,
+      "uniform_macro_weighted_variable_zero_probability": 0.024683733917760773,
+      "nonforced_any_probability_distribution": {
+        "min": 0.5,
+        "median": 1.0,
+        "max": 1.0,
+        "mean": 0.9700297247969568
+      },
+      "nonforced_macro_weighted_any_probability": 0.9734998457727383,
+      "training_incidence_totals": {
+        "held": 286694,
+        "maximum": 97996,
+        "expected": 59378.12857142857,
+        "nonforced_held": 269338
+      },
+      "expected_held_retention_fraction": 0.2071132586361367,
+      "sharp_maximum_held_retention_fraction": 0.34181392006808653,
+      "nonforced_expected_held_retention_fraction": 0.22045952881297318,
+      "nonforced_maximum_held_retention_fraction": 0.36384023049105585,
+      "test_macro_weighted_expected_fraction": 0.19317798785193196,
+      "test_macro_weighted_maximum_fraction": 0.31958374107351173
+    },
+    "class_both_speaker": {
+      "cells": 2028,
+      "forced_cells": 1217,
+      "forced_test_tokens": 4451,
+      "forced_macro_weight": 0.5717673104769879,
+      "possible_macro_weight": 0.4282326895230121,
+      "uniform_macro_weighted_any_associated_segment_probability": 0.3962866611838848,
+      "uniform_macro_weighted_variable_zero_probability": 0.031946028339127304,
+      "nonforced_any_probability_distribution": {
+        "min": 0.5,
+        "median": 0.9998779296875,
+        "max": 1.0,
+        "mean": 0.9028270645478883
+      },
+      "nonforced_macro_weighted_any_probability": 0.9254003042721692,
+      "training_incidence_totals": {
+        "held": 286694,
+        "maximum": 12960,
+        "expected": 7369.2,
+        "nonforced_held": 127512
+      },
+      "expected_held_retention_fraction": 0.025704060775600467,
+      "sharp_maximum_held_retention_fraction": 0.04520499208215031,
+      "nonforced_expected_held_retention_fraction": 0.05779220779220779,
+      "nonforced_maximum_held_retention_fraction": 0.10163749294184077,
+      "test_macro_weighted_expected_fraction": 0.023259222164992134,
+      "test_macro_weighted_maximum_fraction": 0.041053265821250975
+    }
+  },
+  "refinement_comparisons": 18252,
+  "context_word_support": {
+    "contexts": 286,
+    "contexts_in_multiple_words": 13
+  }
+}

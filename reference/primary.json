@@ -1,0 +1,104 @@
+{
+  "seed": 20260929,
+  "controls": 100,
+  "frame_mapping": "centered",
+  "population": {
+    "tokens": 7993,
+    "speakers": 37,
+    "classes": 31,
+    "words": 55
+  },
+  "outcomes": {
+    "speaker": {
+      "macro": 0.4770811286940343,
+      "micro": 0.44388840235205806
+    },
+    "word": {
+      "macro": 0.3192368466562022,
+      "micro": 0.3155260853246591
+    },
+    "class": {
+      "macro": 0.46954911101685304,
+      "micro": 0.43883773301638934,
+      "monte_carlo_se": 0.00020497618095816666
+    },
+    "class_speaker": {
+      "macro": 0.47089636061410267,
+      "micro": 0.43972726135368445,
+      "monte_carlo_se": 0.00019935781381705495
+    },
+    "class_context": {
+      "macro": 0.32012345026861216,
+      "micro": 0.3164606530714375,
+      "monte_carlo_se": 4.544735074123255e-05
+    }
+  },
+  "context_strata": [
+    {
+      "context_available": false,
+      "tokens": 7470,
+      "classes": 31,
+      "words": 55,
+      "speakers": 37,
+      "speaker_class_cells": 1147,
+      "micro": {
+        "speaker": 0.4388219544846051,
+        "word": 0.30883534136546187,
+        "class": 0.4336479250334672,
+        "class_speaker": 0.43454082998661314,
+        "class_context": 0.3096800535475234
+      }
+    },
+    {
+      "context_available": true,
+      "tokens": 523,
+      "classes": 11,
+      "words": 24,
+      "speakers": 37,
+      "speaker_class_cells": 293,
+      "micro": {
+        "speaker": 0.5162523900573613,
+        "word": 0.4110898661567878,
+        "class": 0.512963671128107,
+        "class_speaker": 0.5138049713193117,
+        "class_context": 0.4133078393881453
+      }
+    }
+  ],
+  "randomization_freedom": {
+    "class": {
+      "blocks_evaluated": 62868,
+      "forced_full_blocks": 56016,
+      "randomizable_blocks": 6852,
+      "expected_test_word_tokens_retained_sum": 230066.60486042965,
+      "speaker_word_cells": 2028,
+      "fully_forced_cells": 0
+    },
+    "class_speaker": {
+      "blocks_evaluated": 2263248,
+      "forced_full_blocks": 2017702,
+      "randomizable_blocks": 245546,
+      "expected_test_word_tokens_retained_sum": 229907.0994832341,
+      "speaker_word_cells": 2028,
+      "fully_forced_cells": 0
+    },
+    "class_context": {
+      "blocks_evaluated": 578908,
+      "forced_full_blocks": 567759,
+      "forced_empty_blocks": 10043,
+      "speaker_word_cells": 2028,
+      "fully_forced_cells": 1143,
+      "randomizable_blocks": 1106,
+      "expected_test_word_tokens_retained_sum": 9326.419733822
+    }
+  },
+  "forced_prediction_audit": {
+    "cells": 1143,
+    "tokens": 4193,
+    "macro_weight": 0.5415428802525578,
+    "max_centroid_difference": 1.3322676295501878e-15,
+    "different_predictions": 0,
+    "all_cell_macro_gap": 0.0008866036124099419,
+    "derived_nonforced_macro_gap": 0.0019338855788701892
+  }
+}
