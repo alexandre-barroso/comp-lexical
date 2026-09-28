@@ -1,0 +1,6 @@
+name = "lexical_support"
+version = "0.1.0"
+defaultTargets = ["Proofs"]
+
+[[lean_lib]]
+name = "Proofs"
