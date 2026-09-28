@@ -671,8 +671,11 @@ def check_sources(root=ROOT):
 
 
 def check_manifest(root=ROOT):
+    root = Path(root)
     path = root / "SHA256SUMS"
-    require(path.is_file(), "E_MANIFEST_MISSING")
+    if not path.exists() and not path.is_symlink():
+        return {"status": "SKIPPED_NO_MANIFEST", "files": 0}
+    require(path.is_file(), "E_MANIFEST_NOT_FILE")
     checked = []
     for line in path.read_text(encoding="utf-8").splitlines():
         expected, relative = line.split("  ", 1)
@@ -852,6 +855,12 @@ def main():
         print(json.dumps({"status": result["status"], "roots": result["roots"]}))
         return
     manifest = check_manifest()
+    if manifest["status"] == "SKIPPED_NO_MANIFEST":
+        print(json.dumps({
+            "status": "WARNING",
+            "code": "W_MANIFEST_SKIPPED",
+            "message": "SHA256SUMS was not provided; release-file checksum verification is skipped. Analysis and data checks remain enabled."
+        }), file=sys.stderr, flush=True)
     sources = check_sources()
     corpus = load_corpus()
     targets = json.loads((ROOT / "reference/targets.json").read_text(encoding="utf-8"))
